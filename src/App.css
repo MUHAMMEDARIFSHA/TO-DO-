@@ -1,49 +1,52 @@
 * {
 
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-  background:linear-gradient(to right bottom,#e1b382,#c89666);
+.container {
+  background: linear-gradient(to right bottom, #e1b382, #c89666);
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.app-wrapper{
+
+.app-wrapper {
   background-color: #12424b;
   max-width: 1100px;
   min-height: 250px;
   padding: 25px;
   box-sizing: border-box;
   border-radius: 12px;
-  box-shadow: 3px 6px 40px ;
+  box-shadow: 3px 6px 40px;
   margin-top: 100px;
   margin-bottom: 10px;
-  
+
 }
-.list-wrapper{
+
+.list-wrapper {
   background-color: #12424b;
   min-width: 800px;
   min-height: 600px;
   padding: 25px;
   box-sizing: border-box;
   border-radius: 12px;
-  box-shadow: 3px 6px 40px ;
+  box-shadow: 3px 6px 40px;
   margin-top: 100px;
   margin-bottom: 10px;
-  
+
 
 }
 
-.header{
+.header {
   text-align: center;
   color: #fff;
   margin: 30px 0;
 }
-.task-input{
+
+.task-input {
   outline: none;
   width: 750px;
   padding: 15px;
@@ -56,7 +59,7 @@ padding: 0;
   border-radius: 10px;
 }
 
-.button-add{
+.button-add {
   width: 75px;
   padding: 15px;
   font-size: 20px;
@@ -65,7 +68,8 @@ padding: 0;
   background-color: #EDF4F2;
   cursor: pointer;
 }
-.list-item{
+
+.list-item {
   display: flex;
   margin: 20px 0;
   border: 1px solid #ccc;
@@ -77,8 +81,8 @@ padding: 0;
 
 .button-complete,
 .button-delete,
-.button-edit{
-  border:none;
+.button-edit {
+  border: none;
   outline: none;
   cursor: pointer;
   background-color: transparent;
@@ -87,24 +91,27 @@ padding: 0;
   align-items: end;
 }
 
-.button-complete{
+.button-complete {
   color: #ff6c6c;
   margin-right: 10px;
 }
-.button-complted{
+
+.button-complted {
   color: green;
   margin-right: 10px;
 }
-.button-edit{
-  color:#e2d029;
-margin-right: 10px;
+
+.button-edit {
+  color: #e2d029;
+  margin-right: 10px;
 }
-.button-delete{
+
+.button-delete {
   color: black;
 
 }
 
-.completed{
+.completed {
   color: green;
   text-decoration-style: solid;
   text-decoration-color: green;
@@ -112,16 +119,16 @@ margin-right: 10px;
   opacity: 0.6;
 }
 
-.list{
-  width:1125px;
+.list {
+  width: 1125px;
   border: none;
   color: #302e2e;
   font-size: 25px;
-  padding-left:10px;
+  padding-left: 10px;
   margin-right: 15px;
 }
 
 input:focus,
-button:focus{
+button:focus {
   outline: none;
 }
